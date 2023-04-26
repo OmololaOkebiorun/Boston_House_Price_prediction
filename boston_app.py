@@ -10,7 +10,7 @@ st.header(":blue[Boston House Price Prediction]")
 st.subheader("This app will predict the median value of owner-occupied homes in $1000s (MEDV) of the Boston house dataset.")
  
 #loading the data
-data = pd.read_csv(r'C:\Users\MASTER\Boston\boston.csv')
+data = pd.read_csv('boston.csv')
 
 #adding feature description to sidebar
 st.sidebar.subheader("**:blue[Check features description here.]**")
