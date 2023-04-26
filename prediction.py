@@ -11,7 +11,7 @@ import pickle
 from sklearn.metrics import mean_squared_error
 
 #reading the data
-data = pd.read_csv(r'C:\Users\MASTER\Boston\boston.csv')
+data = pd.read_csv('https://github.com/OmololaOkebiorun/Boston_House_Price_prediction/blob/main/boston.csv')
 
 data.head()
 
